@@ -1,0 +1,15 @@
+/workspaces/Checkpoint3/Checkpoint/bin/Debug/net8.0/Checkpoint
+/workspaces/Checkpoint3/Checkpoint/bin/Debug/net8.0/Checkpoint.deps.json
+/workspaces/Checkpoint3/Checkpoint/bin/Debug/net8.0/Checkpoint.runtimeconfig.json
+/workspaces/Checkpoint3/Checkpoint/bin/Debug/net8.0/Checkpoint.dll
+/workspaces/Checkpoint3/Checkpoint/bin/Debug/net8.0/Checkpoint.pdb
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/Checkpoint.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/Checkpoint.AssemblyInfoInputs.cache
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/Checkpoint.AssemblyInfo.cs
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/Checkpoint.csproj.CoreCompileInputs.cache
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/Checkpoint.sourcelink.json
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/Checkpoint.dll
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/refint/Checkpoint.dll
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/Checkpoint.pdb
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/Checkpoint.genruntimeconfig.cache
+/workspaces/Checkpoint3/Checkpoint/obj/Debug/net8.0/ref/Checkpoint.dll
