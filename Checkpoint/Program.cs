@@ -14,9 +14,9 @@ if (!int.TryParse(resposta, out canal))
 }
 
 TextMessage messageBase = new TextMessage("Olá");
-VideoMessage video = new VideoMessage("Olá");
-PhotoMessage photo = new PhotoMessage("Olá");
-FileMessage file = new FileMessage("Olá");
+VideoMessage video = new VideoMessage("Olá2", fileName:"video.mp4", duration:120);
+PhotoMessage photo = new PhotoMessage("Olá", File2: "foto.jpg", Format: "jpg");
+FileMessage file2 = new FileMessage("Olá" , File2: "documento.pdf", Format: "pdf");
 if(canal == 1)
 {
     ﻿// See https://aka.ms/new-console-template for more information
@@ -51,7 +51,7 @@ string respostamsg = Console.ReadLine();
     if (MSGtype == 4)
     {
         var whats = new WhatsApp();
-        whats.EnviarMensagem("12345678", file);
+        whats.EnviarMensagem("12345678", file2);
     }
 }
 if (canal == 2)
@@ -86,7 +86,7 @@ if (canal == 2)
     if (MSGtype == 4)
     {
         var telegram = new Telegram();
-        telegram.EnviarMensagem("12345678", file);
+        telegram.EnviarMensagem("12345678", file2);
     }
 }
 if (canal == 3)
@@ -106,22 +106,22 @@ if (canal == 3)
     if (MSGtype == 1)
     {
         var instagram = new Instagram();
-        instagram.EnviarMensagem("12345678", messageBase);
+        instagram.EnviarMensagem("usuario", messageBase);
     }
     if (MSGtype == 2)
     {
         var instagram = new Instagram();
-        instagram.EnviarMensagem("12345678", video);
+        instagram.EnviarMensagem("usuario", video);
     }
     if (MSGtype == 3)
     {
         var instagram = new Instagram();
-        instagram.EnviarMensagem("12345678", photo);
+        instagram.EnviarMensagem("usuario", photo);
     }
     if (MSGtype == 4)
     {
         var instagram = new Instagram();
-        instagram.EnviarMensagem("12345678", file);
+        instagram.EnviarMensagem("usuario", file2);
     }
 }
 if (canal == 4)
@@ -141,22 +141,22 @@ if (canal == 4)
     if (MSGtype == 1)
     {
         var facebook = new Facebook();
-        facebook.EnviarMensagem("12345678", messageBase);
+        facebook.EnviarMensagem("usuario", messageBase);
     }
     if (MSGtype == 2)
     {
         var facebook = new Facebook();
-        facebook.EnviarMensagem("12345678", video);
+        facebook.EnviarMensagem("usuario", video);
     }
     if (MSGtype == 3)
     {
         var facebook = new Facebook();
-        facebook.EnviarMensagem("12345678", photo);
+        facebook.EnviarMensagem("usuario", photo);
     }
     if (MSGtype == 4)
     {
         var facebook = new Facebook();
-        facebook.EnviarMensagem("12345678", file);
+        facebook.EnviarMensagem("usuario", file2);
     }
     
 }
